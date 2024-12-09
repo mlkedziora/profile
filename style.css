@@ -2,6 +2,11 @@
 
 body {
   background-color: #f5f5f5;
+  background-image: url('images/5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   font-family: "Open Sans", sans-serif;
   color: #333;
   font-size: 16px;
@@ -18,7 +23,7 @@ body {
 }
 
 .card {
-  background-color: #fff;
+  background-color: rgba(247, 247, 247, 0.8);
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -28,7 +33,7 @@ body {
 
 .card.profile img {
   display: block;
-  max-width: 150px;
+  max-width: 222px;
   height: auto;
   border-radius: 50%;
   margin: 20px auto;
@@ -63,7 +68,7 @@ body {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 5px 25%; /
+  padding: 5px 25%;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
@@ -72,7 +77,7 @@ body {
 }
 
 .card.links button:hover {
-  background-color: #34495e;
+  background-color: #ce210e;
 }
 
 .card.links ul {
@@ -98,7 +103,7 @@ body {
 }
 
 .card.links ul li a:hover {
-  color: #e74c3c;
+  color: #da2511;
 }
 
 .card.links ul li i {
